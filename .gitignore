@@ -1,0 +1,11 @@
+.DS_Store
+plugins/
+upgrade/
+languages/
+themes/
+
+!themes/inhabitent/
+themes/inhabitent/assets/
+themes/inhabitent/node_modules/
+
+
