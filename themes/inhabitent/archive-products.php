@@ -1,20 +1,32 @@
 <?php get_header(); ?>
 
+<h1 class="shop-title">SHOP STUFF</h1>
+
+<section class="shop-content-grid">
 <?php if( have_posts() ) :
 
 //The WordPress Loop: loads post content 
     while( have_posts() ) :
         the_post(); ?>
     
-    <h2><?php the_title(); ?></h2>
-    <?php the_post_thumbnail('large');?>
-    <?php the_content(); ?>
-    <?php echo "£" . get_field('price');?>
+    <figure>
+        
+        <?php the_post_thumbnail('large');?>
+        <figcaption>
+            
+            <?php the_content(); ?>
+            <p><?php the_title(); ?></p>
+            <?php echo "£" . get_field('price');?>
+        </figcaption>
+        
+    </figure>
     
     <!-- Loop ends -->
     <?php endwhile;?>
 
-    <?php the_posts_navigation();?>
+</section>
+
+<?php the_posts_navigation();?>
 
 <?php else : ?>
         <p>No posts found</p>
