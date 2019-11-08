@@ -2,6 +2,22 @@
 
 <h1 class="shop-title">SHOP STUFF</h1>
 
+<section class="shop-product-type-links">
+
+    <?php $terms = get_terms( array(
+    'taxonomy' => 'product-type',
+    'hide-empty' => false,
+    ))?>
+    <?php foreach($terms as $term):?>
+
+    <section class="shop-product-type-links">
+        <a class="#" href="<?php echo "product-type/" . $term->slug ;?>"> <?php echo $term->name ;?> </a>
+    </section>
+
+    <?php endforeach;?>
+</section>
+ 
+
 <section class="shop-content-grid">
 <?php if( have_posts() ) :
 

@@ -115,6 +115,12 @@ table {
 .menu-item {
   padding: 10px; }
 
+html {
+  max-width: 1120px; }
+
+body {
+  max-width: 1120px; }
+
 body {
   font-size: 2em; }
 
@@ -190,7 +196,9 @@ form {
 
 img.attachment-large {
   width: 100%;
-  height: 80%; }
+  height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover; }
 
 figure {
   display: -webkit-box;
@@ -225,3 +233,15 @@ figcaption {
 
 .shop-title {
   text-align: center; }
+
+.shop-product-type-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }

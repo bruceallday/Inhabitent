@@ -16,7 +16,7 @@
     <?php the_posts_navigation();?>
 
 
-<section class="front-page-product-type">
+<section class="shop-page-product-type">
     <?php $terms = get_terms( array(
     'taxonomy' => 'product-type',
     'hide-empty' => false,
