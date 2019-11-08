@@ -24,6 +24,16 @@ foreach($postslist as $post) : setup_postdata($post); ?>
     <?php endforeach;?>
 </div>
 
+<?php $terms = get_terms( array(
+    'taxonomy' => 'product-type',
+    'hide-empty' => false,
+));
+
+foreach($terms as $term):?>
+
+    <a href="<?php echo "product-type/" . $term->slug ;?>"> <?php echo $term->name ;?> </a>
+
+<?php endforeach;?>
 
 
 <?php else : ?>

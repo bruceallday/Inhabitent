@@ -17,6 +17,14 @@
         <p>No posts found</p>
 <?php endif;?>
 
+<form action="" id="contact-form">
+    <input type="text" >
+    <input type="email">
+    <input type="text">
+    <input type="textarea">
+</form>
+<textarea name="" id="contact-form" cols="30" rows="10"></textarea>
+
 <?php get_sidebar();?>
 
 <?php get_footer();?>
