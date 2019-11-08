@@ -118,6 +118,35 @@ table {
 body {
   font-size: 2em; }
 
+.main-logo {
+  position: relative;
+  bottom: 750px;
+  left: 600px; }
+
+.front-page-product-type {
+  display: grid;
+  grid-template-columns: 20vw 20vw 20vw 20vw;
+  border: 1px solid black;
+  margin-left: 145px; }
+
+.front-page-product-sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 30vh;
+  margin-bottom: 20px;
+  border: 1px solid black; }
+
+.front-page-product-sections-btn {
+  width: 100px; }
+
 section.about {
   display: -webkit-box;
   display: -ms-flexbox;

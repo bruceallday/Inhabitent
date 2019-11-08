@@ -1,7 +1,8 @@
 <?php wp_footer();?>
 
 <footer>
-    <?php 
+    <?php
+         
     ;?>
 </footer>
 

@@ -18,10 +18,16 @@
 <?php endif;?>
 
 <form action="" id="contact-form">
-    <input type="text" >
-    <input type="email">
-    <input type="text">
-    <input type="textarea">
+    <label for="name">Name</label>
+    <input type="text" id="name">
+
+    <label for="email">Email</label>
+    <input type="email" id="email">
+
+    <label for="subject">Subject</label>
+    <input type="text" id="subject">
+
+    <label for="contact-form">Message</label>
 </form>
 <textarea name="" id="contact-form" cols="30" rows="10"></textarea>
 
