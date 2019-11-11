@@ -9,11 +9,11 @@ html{
     "a b";
 
     grid-template-columns:0.9fr 350px;
-    grid-auto-rows: auto;
+   
 
     grid-gap: 10px;
 
-  height: 100vh;
+//   height: 100vh;
 }
 
 .journal{
@@ -24,7 +24,7 @@ html{
 
     grid-template-columns:0.9fr 350px;
     grid-auto-rows: auto;
-    height: 100vh;
+    // height: 100vh;
 }
 
 .journal-posts{

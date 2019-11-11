@@ -103,6 +103,12 @@ p {
   font-size: 16px;
   font-family: Merriweather; }
 
+.journal-post {
+  font-family: Merriweather; }
+
+.journal-post h2 {
+  font-family: Novecento-Sans-Web; }
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -126,16 +132,13 @@ html {
   display: grid;
   grid-template-areas: "a b" "a b";
   grid-template-columns: 0.9fr 350px;
-  grid-auto-rows: auto;
-  grid-gap: 10px;
-  height: 100vh; }
+  grid-gap: 10px; }
 
 .journal {
   display: grid;
   grid-template-areas: "a b" "a b";
   grid-template-columns: 0.9fr 350px;
-  grid-auto-rows: auto;
-  height: 100vh; }
+  grid-auto-rows: auto; }
 
 .journal-posts {
   grid-area: a;
@@ -239,6 +242,9 @@ section.journal-excerpts {
 .latest-adventures {
   font-family: Novecento-Sans-Web; }
 
+div.landing-blog {
+  font-family: Merriweather; }
+
 section.about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -263,6 +269,9 @@ section.about {
 section.about-text h1 {
   text-align: center; }
 
+.about-text h1 {
+  font-family: Novecento-Sans-Web; }
+
 .contactForm {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -275,6 +284,15 @@ section.about-text h1 {
       -ms-flex-align: start;
           align-items: flex-start;
   grid-area: form; }
+
+.info h2 {
+  font-family: Novecento-Sans-Web; }
+
+.info h3 {
+  font-family: Novecento-Sans-Web; }
+
+.info label {
+  font-family: Novecento-Sans-Web; }
 
 .shop-content-grid {
   display: grid;
@@ -321,3 +339,15 @@ figcaption {
 
 .shop-title {
   text-align: center; }
+
+.shop-product-type-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }

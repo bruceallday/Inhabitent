@@ -22,16 +22,16 @@
     <?php endif;?>
     
     <form action="" class="contactForm" id="contact-form">
-        <label for="name">Name</label>
+        <label for="name">NAME</label>
         <input type="text" id="name">
 
-        <label for="email">Email</label>
+        <label for="email">EMAIL</label>
         <input type="email" id="email">
 
-        <label for="subject">Subject</label>
+        <label for="subject">SUBJECT</label>
         <input type="text" id="subject">
 
-        <label for="contact-form">Message</label>
+        <label for="contact-form">MESSAGE</label>
 
         <textarea name="" id="contact-form" cols="30" rows="10"></textarea>
         <input type="submit">
