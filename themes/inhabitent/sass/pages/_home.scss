@@ -4,22 +4,24 @@ body {
 
 .main-logo{
     position: relative;
-    bottom: 750px;
-    left: 600px;
-
+    bottom: 350px;
+    left: 400px;
 }   
 
-.front-page-product-type{
+.shop-page-product-type{
     display: grid;
-    grid-template-columns: 20vw 20vw 20vw 20vw;
-    // border: 1px solid black;
-    margin-left: 145px;
+    grid-gap: 20px;
+    grid-template-columns: 22vw 22vw 22vw 22vw;
+    // margin-left: 100px;
+    justify-content: center;
+   
 }
 
 .front-page-product-sections{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: center;
     height: 30vh;
     margin-bottom: 20px;
     border: 1px solid black;
@@ -27,4 +29,42 @@ body {
 
 .front-page-product-sections-btn{
     width: 100px;
+}
+
+// .front-page-product-sections{
+//     width: 100px;
+//     height: 80px;
+// }
+
+.landing-title{
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: Novecento-Sans-Web;
+}
+
+.banner{
+    height: 60vh;
+}
+
+.landing-heading{
+    text-align: center;
+    font-family: Novecento-Sans-Web;
+}
+
+.landing-blog{
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+section.journal-excerpts{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 20vh;
+}
+
+.latest-adventures{
+    font-family: Novecento-Sans-Web;
 }

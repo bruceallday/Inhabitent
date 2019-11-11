@@ -1,24 +1,41 @@
 <?php get_header(); ?>
 
-<?php if( have_posts() ) :
+<section class="journal">
 
-//The WordPress Loop: loads post content 
-    while( have_posts() ) :
-        the_post(); ?>
     
-    <h2><?php the_title(); ?></h2>
-    <?php the_post_thumbnail('large');?>
-    <!-- <h3><?php the_permalink();?></h3> -->
-    <?php the_content(); ?>
+        <?php if( have_posts() ) :
+        //The WordPress Loop: loads post content 
+            while( have_posts() ) :
+                the_post(); ?>
+        <div class="journal-post">  
+            <h2><?php the_title(); ?></h2>
+            <?php the_post_thumbnail('large');?>
+            <!-- //<?php the_content(); ?> -->
+            <?php echo wp_trim_words(get_the_excerpt(), 10, '...');  ?>
+        </div>
+            <!-- Loop ends -->
+            <?php endwhile;?>
+        
+            <?php the_posts_navigation();?>
+        
+            <?php else : ?>
+                <p>No posts found</p>
+            <?php endif;?>
+
+            
     
-    <!-- Loop ends -->
-    <?php endwhile;?>
+        
+        <?php get_sidebar();?>
 
-    <?php the_posts_navigation();?>
+     
 
-<?php else : ?>
-        <p>No posts found</p>
-<?php endif;?>
+
+
+
+</section>
+
+
+
 
     
 <?php get_footer();?>

@@ -1,7 +1,11 @@
 <?php get_header(); ?>
 
-<?php if( have_posts() ) :
-//The WordPress Loop: loads post content 
+
+<section class="contact">
+
+<div class="info">
+    <?php if( have_posts() ) :
+    //The WordPress Loop: loads post content 
     while( have_posts() ) :
         the_post(); ?>
     
@@ -13,24 +17,36 @@
 
     <?php the_posts_navigation();?>
 
-<?php else : ?>
+    <?php else : ?>
         <p>No posts found</p>
-<?php endif;?>
+    <?php endif;?>
+    
+    <form action="" class="contactForm" id="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name">
 
-<form action="" id="contact-form">
-    <label for="name">Name</label>
-    <input type="text" id="name">
+        <label for="email">Email</label>
+        <input type="email" id="email">
 
-    <label for="email">Email</label>
-    <input type="email" id="email">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject">
 
-    <label for="subject">Subject</label>
-    <input type="text" id="subject">
+        <label for="contact-form">Message</label>
 
-    <label for="contact-form">Message</label>
-</form>
-<textarea name="" id="contact-form" cols="30" rows="10"></textarea>
+        <textarea name="" id="contact-form" cols="30" rows="10"></textarea>
+        <input type="submit">
+
+        </form>
+</div>
+
+
+
 
 <?php get_sidebar();?>
 
 <?php get_footer();?>
+
+</section>
+
+
+

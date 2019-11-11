@@ -1,0 +1,33 @@
+html{
+    height: 100vh;
+}
+
+.contact {
+    display: grid;
+    grid-template-areas:
+    "a b"
+    "a b";
+
+    grid-template-columns:0.9fr 350px;
+    grid-auto-rows: auto;
+
+    grid-gap: 10px;
+
+  height: 100vh;
+}
+
+.journal{
+    display: grid;
+    grid-template-areas: 
+    "a b"
+    "a b";
+
+    grid-template-columns:0.9fr 350px;
+    grid-auto-rows: auto;
+    height: 100vh;
+}
+
+.journal-posts{
+    grid-area: a;
+    align-self: flex-end;
+}
