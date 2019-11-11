@@ -11,7 +11,7 @@
     <?php foreach($terms as $term):?>
 
     <section class="shop-product-type-links">
-        <a class="#" href="<?php echo "product-type/" . $term->slug ;?>"> <?php echo $term->name ;?> </a>
+        <a class="#" href="<?php echo "product-type/" . $term->slug;?>"> <?php echo $term->name ;?></a>
     </section>
 
     <?php endforeach;?>
@@ -28,9 +28,8 @@
     <figure>
         
         <?php the_post_thumbnail('large');?>
+
         <figcaption>
-            
-            <?php the_content(); ?>
             <p><?php the_title(); ?></p>
             <?php echo "£" . get_field('price');?>
         </figcaption>

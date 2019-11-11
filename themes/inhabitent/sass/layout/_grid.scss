@@ -1,6 +1,6 @@
-html{
-    height: 100vh;
-}
+// html{
+//     height: 100vh;
+// }
 
 .contact {
     display: grid;
@@ -9,11 +9,7 @@ html{
     "a b";
 
     grid-template-columns:0.9fr 350px;
-   
-
     grid-gap: 10px;
-
-//   height: 100vh;
 }
 
 .journal{
@@ -24,10 +20,18 @@ html{
 
     grid-template-columns:0.9fr 350px;
     grid-auto-rows: auto;
-    // height: 100vh;
 }
 
 .journal-posts{
     grid-area: a;
     align-self: flex-end;
+}
+
+.latest-adventures{
+    display: grid;
+    grid-template-rows: 20vh 20vh;
+    grid-template-areas:
+    "a a b b"
+    "a a c d";
+    margin: 50px;
 }

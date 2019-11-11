@@ -103,11 +103,32 @@ p {
   font-size: 16px;
   font-family: Merriweather; }
 
-.journal-post {
-  font-family: Merriweather; }
-
 .journal-post h2 {
   font-family: Novecento-Sans-Web; }
+
+.green-brand {
+  color: #248A83; }
+
+.purple-brand {
+  color: #2f1339; }
+
+.orange-brand {
+  color: #d99054; }
+
+.yellow-brand {
+  color: #f0e4d1; }
+
+.light-grey-brand {
+  color: #a1a1a1; }
+
+.medium-grey-brand {
+  color: #808080; }
+
+.novecento-web {
+  font-family: Novecento-Sans-Web; }
+
+.merriweather {
+  font-family: Merriweather; }
 
 .menu {
   display: -webkit-box;
@@ -124,9 +145,6 @@ p {
 
 .menu-item {
   padding: 10px; }
-
-html {
-  height: 100vh; }
 
 .contact {
   display: grid;
@@ -145,11 +163,11 @@ html {
   -ms-flex-item-align: end;
       align-self: flex-end; }
 
-html {
-  max-width: 1120px; }
-
-body {
-  max-width: 1120px; }
+.latest-adventures {
+  display: grid;
+  grid-template-rows: 20vh 20vh;
+  grid-template-areas: "a a b b" "a a c d";
+  margin: 50px; }
 
 aside {
   grid-area: b;
@@ -214,19 +232,22 @@ body {
   height: 60vh; }
 
 .landing-heading {
+  margin-top: 35px;
+  margin-bottom: 35px;
   text-align: center;
   font-family: Novecento-Sans-Web; }
 
 .landing-blog {
+  height: 500px;
   font-size: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  border: 1px solid black; }
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #808080; }
 
 section.journal-excerpts {
   display: -webkit-box;
@@ -236,14 +257,34 @@ section.journal-excerpts {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 100vw;
-  height: 20vh; }
+  width: 100vw; }
 
-.latest-adventures {
-  font-family: Novecento-Sans-Web; }
+.latest-adventures-text {
+  font-family: Novecento-Sans-Web;
+  margin-top: 50px; }
 
 div.landing-blog {
   font-family: Merriweather; }
+
+.front-page-product-sections-btn {
+  font-family: Novecento-Sans-Web;
+  color: white;
+  background: #248A83;
+  margin-bottom: 20px;
+  height: 40px;
+  width: 120px; }
+
+.read-entry-button {
+  margin-left: 10px;
+  margin-top: 20px;
+  height: 40px;
+  width: 120px;
+  background: white;
+  border: 1px solid #808080; }
+
+.product-section-svg {
+  width: 100px;
+  height: 100px; }
 
 section.about {
   display: -webkit-box;

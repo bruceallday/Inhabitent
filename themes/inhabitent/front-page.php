@@ -26,7 +26,8 @@
 foreach($terms as $term):?>
 
     <section class="front-page-product-sections">
-        <button class="front-page-product-sections-btn" href="<?php echo "product-type/" . $term->slug ;?>"> <?php echo $term->name ;?> </button>
+        <img class="product-section-svg" src="<?php echo get_stylesheet_directory_uri();?>/assets/images/product-type-icons/<?php echo $term->slug;?>.svg" alt="">
+        <button class="front-page-product-sections-btn" href="<?php echo "product-type/" . $term->slug ;?>"> <?php echo $term->name;?> </button>
     </section>
 
 <?php endforeach;?>
@@ -46,11 +47,12 @@ foreach($postslist as $post) : setup_postdata($post); ?>
 
 
 <div class="landing-blog">
+    <?php the_post_thumbnail('large');?>
     <?php the_date(); ?>
     <br>
-    <?php the_title(); ?>
-    <?php echo wp_trim_words(get_the_excerpt(), 10, '...'); ?>
-    
+     <h2 class="green-brand novecento-web"><?php the_title(); ?></h2>
+    <!-- <p><?php echo wp_trim_words(get_the_excerpt(), 5, '...'); ?></p>  -->
+    <button class="read-entry-button">READ ENTRY</button>
 </div>
 
 
@@ -59,8 +61,19 @@ foreach($postslist as $post) : setup_postdata($post); ?>
 </section>
 
 
+<section>
+    <div>
+    <h1 style="text-align: center;" class="latest-adventures-text">LATEST ADVENTURES</h1>
+    </div>
 
-<h1 style="text-align: center;" class="latest-adventures">LATEST ADVENTURES</h1>
+
+    <section class="latest-adventures">
+</section>
+
+
+
+
+</section>
 
 
 <?php else : ?>

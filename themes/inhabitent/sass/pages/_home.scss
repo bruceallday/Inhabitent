@@ -47,28 +47,61 @@ body {
 }
 
 .landing-heading{
+    margin-top: 35px;
+    margin-bottom: 35px;
     text-align: center;
     font-family: Novecento-Sans-Web;
 }
 
 .landing-blog{
+    height: 500px;
     font-size: 16px;
     display: flex;
-    flex-direction: row;
-    border: 1px solid black;
+    flex-direction: column;
+    border: 1px solid #808080;
 }
 
 section.journal-excerpts{
     display: flex;
     flex-direction: row;
     width: 100vw;
-    height: 20vh;
+
+
 }
 
-.latest-adventures{
+.latest-adventures-text{
     font-family: Novecento-Sans-Web;
+    margin-top: 50px;
 }
 
 div.landing-blog{
     font-family: Merriweather;
+}
+
+.front-page-product-sections-btn{
+    font-family: Novecento-Sans-Web;
+    color: white;
+    background: #248A83;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 120px;
+}
+
+
+.read-entry-button{
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 40px;
+    width: 120px;
+    background: white;
+    border: 1px solid #808080;
+}
+
+.journal-home-ex{
+
+}
+
+.product-section-svg{
+    width:100px;
+    height:100px;
 }
