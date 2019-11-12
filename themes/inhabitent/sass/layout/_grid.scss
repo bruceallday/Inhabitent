@@ -22,10 +22,11 @@
     // grid-auto-rows: auto;
 }
 
-.journal-posts{
-    grid-area: a;
-    align-self: flex-end;
-}
+// .journal-posts{
+//     grid-area: a;
+//     align-self: flex-end;
+    
+// }
 
 .latest-adventures{
     display: grid;
@@ -34,4 +35,35 @@
     "a a b b"
     "a a c d";
     margin: 50px;
+}
+
+.journal-post{
+    position: relative;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.post-image-title{
+    position: absolute;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    width: 450px;
+    height: 80px;
+    z-index: 1;
+    background-color: #248A83;
+    
+}
+
+.post-image-title h2{
+    color: white;
+}
+
+
+
+.article h2{
+    
+    // background-color: #248A83;
 }

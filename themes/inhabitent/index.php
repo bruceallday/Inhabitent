@@ -8,11 +8,15 @@
             while( have_posts() ) :
                 the_post(); ?>
 
-            <article class="journal-post">  
-                <h2><?php the_title(); ?></h2>
+            <article class="journal-post">
+                <div class="post-image-title">
+                    <h2><?php the_title(); ?></h2>
+                </div> 
+                <!-- <h2><?php the_title(); ?></h2> -->
                 <?php the_post_thumbnail('large');?>
-                <!-- //<?php the_content(); ?> -->
-                <p><?php echo wp_trim_words(get_the_excerpt(), 10, '...');  ?></p> 
+                 
+                <p><?php echo wp_trim_words(get_the_excerpt(), 50, '[...]');  ?></p>
+                <button class="read-entry-button">READ MORE</button>
             </article>
 
             <!-- Loop ends -->
