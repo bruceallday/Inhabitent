@@ -144,7 +144,9 @@ p {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-right: 100px; }
+  margin-right: 100px;
+  -ms-flex-item-align: end;
+      align-self: flex-end; }
 
 .menu-item {
   padding: 10px; }
@@ -153,6 +155,24 @@ p {
   font-family: Novecento-Sans-Web;
   color: #248A83;
   text-decoration: none; }
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+.menu-main-container {
+  padding-left: 50px; }
+
+nav img {
+  margin-right: 400px; }
 
 .contact {
   height: 100vh;
@@ -353,19 +373,22 @@ section.about {
           align-items: center; }
 
 .about p {
-  font-size: 16px; }
+  font-size: 16px;
+  line-height: 25px; }
 
 .about-text {
-  padding: 100px; }
-
-section.about-text h1 {
-  text-align: center; }
+  padding: 80px 120px 80px 120px; }
 
 .about-text h1 {
-  font-family: Novecento-Sans-Web; }
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: Novecento-Sans-Web-Bold; }
 
 .about-header {
-  font-family: Novecento-Sans-Web; }
+  position: relative;
+  top: 350px;
+  font-family: Novecento-Sans-Web-Bold;
+  color: white; }
 
 .contactForm {
   display: -webkit-box;

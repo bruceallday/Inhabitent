@@ -7,10 +7,11 @@ section.about{
 
 .about p{
     font-size: 16px;
+    line-height: 25px;
 }
 
 .about-text{
-    padding: 100px;
+    padding: 80px 120px 80px 120px ;
 }
 
 img.attachment-large{
@@ -18,16 +19,21 @@ img.attachment-large{
 
 }
 
-section.about-text h1{
-    text-align: center;
-}
+// section.about-text h1{
+//     text-align: center;
+// }
 
 .about-text h1{
-    font-family: Novecento-Sans-Web;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: Novecento-Sans-Web-Bold;
 }
 
 .about-header{
-    font-family: Novecento-Sans-Web;
+    position: relative;
+    top: 350px;
+    font-family: Novecento-Sans-Web-Bold;
+    color: white;
 }
 
 

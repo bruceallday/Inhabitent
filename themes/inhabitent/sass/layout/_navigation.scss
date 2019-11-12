@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 100px;
+    align-self: flex-end;
 }
 
 .menu-item{
@@ -15,7 +16,20 @@
     text-decoration: none;
 }
 
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+}
 
+.menu-main-container{
+    // align-self: flex-end;
+    padding-left: 50px;
+}
+
+nav img{
+    margin-right: 400px;
+}
 
 
 
