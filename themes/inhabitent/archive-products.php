@@ -11,7 +11,7 @@
     <?php foreach($terms as $term):?>
 
     <section class="shop-product-type-links">
-        <a class="#" href="<?php echo get_home_url() . "/product-type/" . $term->slug;?>"> <?php echo $term->name ;?></a>
+        <a class="product-type-link" href="<?php echo get_home_url() . "/product-type/" . $term->slug;?>"> <?php echo $term->name ;?></a>
     </section>
 
     <?php endforeach;?>

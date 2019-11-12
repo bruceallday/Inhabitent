@@ -1,22 +1,38 @@
 aside{
     grid-area: b;
-    margin-left: 50px;
+    padding: 30px;
+    border: 1px solid border #a1a1a1;
+    text-align: left;
 }
 
 h2.widgettitle{
-    font-family: Novecento-Sans-Web;
+    font-family: Novecento-Sans-Web-Bold;
 }
 
-#sidebar h2{
-    font-family: Novecento-Sans-Web;
+#sidebar h4{
+    font-family: Novecento-Sans-Web-Bold;
+}
+
+h1.contact-info-heading{
+    font-family: Novecento-Sans-Web-Bold;
 }
 
 .archives-text{
-    font-family: Novecento-Sans-Web;
+    font-family: Novecento-Sans-Web-Bold;
 }
 
 .sidebar-item{
     font-size: 16px;
     font-family: Merriweather;
 }
+
+#sidebar li{
+    padding: 10px;
+    
+}
+
+
+
+
+
 
