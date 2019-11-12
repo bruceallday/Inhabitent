@@ -164,7 +164,8 @@ p {
 .journal {
   display: grid;
   grid-template-areas: "a b" "a b";
-  grid-template-columns: 1fr 360px; }
+  grid-template-columns: 1fr 360px;
+  border: 1px solid #a1a1a1; }
 
 .latest-adventures {
   display: grid;
@@ -281,7 +282,7 @@ body {
   font-family: Novecento-Sans-Web; }
 
 .landing-blog {
-  height: 500px;
+  height: 350px;
   font-size: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -290,7 +291,13 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   border: 1px solid #808080; }
+
+.landing-blog .wp-post-image {
+  height: 200px; }
 
 section.journal-excerpts {
   display: -webkit-box;
@@ -300,14 +307,15 @@ section.journal-excerpts {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 100vw; }
+  padding: 20px; }
 
 .latest-adventures-text {
   font-family: Novecento-Sans-Web;
   margin-top: 50px; }
 
 div.landing-blog {
-  font-family: Merriweather; }
+  font-family: Merriweather;
+  margin: 10px; }
 
 .front-page-product-sections-btn {
   font-family: Novecento-Sans-Web;

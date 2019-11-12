@@ -54,19 +54,27 @@ body {
 }
 
 .landing-blog{
-    height: 500px;
+    height: 350px;
     font-size: 16px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     border: 1px solid #808080;
+}
+
+.landing-blog .wp-post-image{
+    height: 200px;
+}
+
+.landing-blog button{
+    
 }
 
 section.journal-excerpts{
     display: flex;
     flex-direction: row;
-    width: 100vw;
-
-
+    padding: 20px;
+    
 }
 
 .latest-adventures-text{
@@ -76,6 +84,7 @@ section.journal-excerpts{
 
 div.landing-blog{
     font-family: Merriweather;
+    margin: 10px;
 }
 
 .front-page-product-sections-btn{
