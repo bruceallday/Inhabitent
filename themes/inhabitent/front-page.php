@@ -26,8 +26,10 @@
 foreach($terms as $term):?>
 
     <section class="front-page-product-sections">
+        <p></p>
         <img class="product-section-svg" src="<?php echo get_stylesheet_directory_uri();?>/assets/images/product-type-icons/<?php echo $term->slug;?>.svg" alt="">
         <button class="front-page-product-sections-btn" href="<?php echo "product-type/" . $term->slug ;?>"> <?php echo $term->name;?> </button>
+
     </section>
 
 <?php endforeach;?>
@@ -50,7 +52,7 @@ foreach($postslist as $post) : setup_postdata($post); ?>
     <?php the_post_thumbnail('large');?>
     <?php the_date(); ?>
     <br>
-     <h2 class="green-brand novecento-web"><?php the_title(); ?></h2>
+     <h1 class="green-brand Novacento-bold"><?php the_title(); ?></h1>
     <!-- <p><?php echo wp_trim_words(get_the_excerpt(), 5, '...'); ?></p>  -->
     <button class="read-entry-button">READ ENTRY</button>
 </div>
@@ -65,10 +67,9 @@ foreach($postslist as $post) : setup_postdata($post); ?>
     <div>
     <h1 style="text-align: center;" class="latest-adventures-text">LATEST ADVENTURES</h1>
     </div>
-
-
-    <section class="latest-adventures">
 </section>
+
+ <section class="latest-adventures">
 
 
 

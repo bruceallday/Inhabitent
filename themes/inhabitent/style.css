@@ -149,7 +149,7 @@ p {
       align-self: flex-end; }
 
 .menu-item {
-  padding: 10px; }
+  padding: 15px 10px 10px 10px; }
 
 .menu li a {
   font-family: Novecento-Sans-Web;
@@ -164,15 +164,12 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .menu-main-container {
   padding-left: 50px; }
-
-nav img {
-  margin-right: 400px; }
 
 .contact {
   height: 100vh;
@@ -379,7 +376,11 @@ section.about {
 .about-text {
   padding: 80px 120px 80px 120px; }
 
-.about-text h1 {
+img.attachment-large {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%); }
+
+.about-text h2 {
   margin-bottom: 30px;
   text-align: center;
   font-family: Novecento-Sans-Web-Bold; }
@@ -388,7 +389,9 @@ section.about {
   position: relative;
   top: 350px;
   font-family: Novecento-Sans-Web-Bold;
-  color: white; }
+  color: white;
+  z-index: 999;
+  font-size: 1.3em; }
 
 .contactForm {
   display: -webkit-box;

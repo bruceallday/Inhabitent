@@ -15,15 +15,15 @@ section.about{
 }
 
 img.attachment-large{
-    // width: 100%;
-
+    filter: brightness(50%);
+    
 }
 
 // section.about-text h1{
 //     text-align: center;
 // }
 
-.about-text h1{
+.about-text h2{
     margin-bottom: 30px;
     text-align: center;
     font-family: Novecento-Sans-Web-Bold;
@@ -34,6 +34,8 @@ img.attachment-large{
     top: 350px;
     font-family: Novecento-Sans-Web-Bold;
     color: white;
+    z-index: 999;
+    font-size: 1.3em;
 }
 
 
