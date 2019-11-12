@@ -462,3 +462,32 @@ figcaption {
   color: #248A83;
   text-decoration: none;
   font-size: 18px; }
+
+.single-item-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.single-item-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.single-item-info h2 {
+  font-family: Novecento-Sans-Web;
+  padding-left: 40px;
+  color: #d99054; }
+
+.single-item-info p {
+  padding: 40px; }
+
+.single-item-info h3 {
+  padding-left: 40px; }

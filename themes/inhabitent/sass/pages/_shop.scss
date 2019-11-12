@@ -57,3 +57,29 @@ figcaption{
     text-decoration: none;
     font-size: 18px;
 }
+
+
+.single-item-section{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.single-item-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.single-item-info h2{
+    font-family: Novecento-Sans-Web;
+    padding-left: 40px;
+    color: #d99054
+}
+
+.single-item-info p{
+    padding: 40px;
+}
+
+.single-item-info h3{
+    padding-left: 40px;
+}
