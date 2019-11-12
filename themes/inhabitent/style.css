@@ -155,15 +155,16 @@ p {
   text-decoration: none; }
 
 .contact {
+  height: 100vh;
   display: grid;
   grid-template-areas: "a b" "a b";
-  grid-template-columns: 0.9fr 360px;
+  grid-template-columns: 1fr 360px;
   grid-gap: 10px; }
 
 .journal {
   display: grid;
   grid-template-areas: "a b" "a b";
-  grid-template-columns: 0.9fr 360px; }
+  grid-template-columns: 1fr 360px; }
 
 .latest-adventures {
   display: grid;
@@ -201,7 +202,7 @@ p {
 aside {
   grid-area: b;
   padding: 30px;
-  border: 1px solid border #a1a1a1;
+  border: 1px solid #a1a1a1;
   text-align: left; }
 
 h2.widgettitle {
@@ -222,6 +223,11 @@ h1.contact-info-heading {
 
 #sidebar li {
   padding: 10px; }
+
+#sidebar li a {
+  font-family: Novecento-Sans-Web;
+  color: #248A83;
+  text-decoration: none; }
 
 body {
   font-size: 2em; }
@@ -350,6 +356,9 @@ section.about-text h1 {
 .about-text h1 {
   font-family: Novecento-Sans-Web; }
 
+.about-header {
+  font-family: Novecento-Sans-Web; }
+
 .contactForm {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -371,6 +380,9 @@ section.about-text h1 {
 
 .info label {
   font-family: Novecento-Sans-Web; }
+
+section.contact {
+  border: 1px solid #a1a1a1; }
 
 .shop-content-grid {
   display: grid;
@@ -394,7 +406,8 @@ figure {
           flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  border: 1px solid #a1a1a1; }
 
 figcaption {
   font-size: 16px;
@@ -413,7 +426,8 @@ figcaption {
       -ms-flex-pack: center;
           justify-content: center;
   height: 20%;
-  border: 1px solid #a1a1a1; }
+  border: 1px solid #a1a1a1;
+  margin-top: 10px; }
 
 .shop-title {
   text-align: center;

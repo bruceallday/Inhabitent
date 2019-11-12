@@ -19,6 +19,7 @@ figure{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: 1px solid #a1a1a1;
 }
 
 figcaption{
@@ -30,6 +31,7 @@ figcaption{
     justify-content: center;
     height: 20%;
     border: 1px solid #a1a1a1;
+    margin-top: 10px;
 }
 
 .shop-title{

@@ -12,6 +12,7 @@
 <?php wp_nav_menu(array('theme_location' => 'primary')) ;?>
 
 <img style="width: 100px; height: 50px;" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logos/inhabitent-logo-tent-white.svg;?>" alt="Inhabitents logo">
+<!-- <hr> -->
 
 
 
