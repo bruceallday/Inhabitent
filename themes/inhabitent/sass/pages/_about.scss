@@ -19,6 +19,18 @@ img.attachment-large{
     
 }
 
+figure img.attachment-large{
+    filter: brightness(100%);
+}
+
+.landing-blog img.attachment-large{
+    filter: brightness(100%);
+}
+
+.journal-post img.attachment-large{
+    filter: brightness(100%);
+}
+
 // section.about-text h1{
 //     text-align: center;
 // }
