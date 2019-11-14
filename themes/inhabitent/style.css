@@ -179,15 +179,14 @@ nav {
   padding-left: 50px; }
 
 .contact {
-  height: 100vh;
   display: grid;
-  grid-template-areas: "a b" "a b";
+  grid-template-areas: "a b" "a b" "c c";
   grid-template-columns: 1fr 360px;
   grid-gap: 10px; }
 
 .journal {
   display: grid;
-  grid-template-areas: "a b" "a b";
+  grid-template-areas: "a b" "a b" "c c";
   grid-template-columns: 1fr 360px;
   border: 1px solid #a1a1a1; }
 
@@ -235,7 +234,8 @@ footer {
       -ms-flex-direction: row;
           flex-direction: row;
   -ms-flex-line-pack: center;
-      align-content: center; }
+      align-content: center;
+  grid-area: c; }
 
 footer p {
   padding: 10px; }

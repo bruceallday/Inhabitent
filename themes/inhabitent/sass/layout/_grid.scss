@@ -3,11 +3,12 @@
 // }
 
 .contact {
-    height: 100vh;
+    // height: 100vh;
     display: grid;
     grid-template-areas:
     "a b"
-    "a b";
+    "a b"
+    "c c";
 
     grid-template-columns:1fr 360px;
     grid-gap: 10px;
@@ -17,7 +18,8 @@
     display: grid;
     grid-template-areas: 
     "a b"
-    "a b";
+    "a b"
+    "c c";
 
     grid-template-columns:1fr 360px;
     border: 1px solid #a1a1a1;
