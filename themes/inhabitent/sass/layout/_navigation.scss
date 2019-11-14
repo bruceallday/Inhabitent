@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-right: 100px;
+    margin-right: 10px;
     align-self: flex-end;
 }
 
@@ -24,18 +24,38 @@ nav{
 }
 
 .menu-main-container{
-    // align-self: flex-end;
-    padding-left: 50px;
+    // padding-left: 550px;
 }
 
-// nav img{
-//     margin-right: 400px;
+// .fa.fa-search{
+//     color:#248A83;
 // }
 
+a.search-toggle{
+    color:#248A83;
+}
 
-hr.dotted{
+#ajaxsearchlite1.wpdreams_asl_container{
+    width:250px;
+    margin-right: 20px;
     
 }
+
+path#magnifier-2-icon{
+     color:#248A83;
+}
+
+
+.search-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+div.menu-main-container{
+    width:500px;
+}
+
+
 
 
 

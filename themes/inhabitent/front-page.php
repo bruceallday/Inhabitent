@@ -46,18 +46,14 @@ $args = array('numberposts' => 3, 'order' => "ASC", 'orderby' => 'title');
 $postslist = get_posts($args);
 foreach($postslist as $post) : setup_postdata($post); ?>
 
-
-
-<div class="landing-blog">
-    <?php the_post_thumbnail('large');?>
-    <?php the_date(); ?>
-    <br>
-     <h1 class="green-brand Novacento-bold"><?php the_title(); ?></h1>
-    <!-- <p><?php echo wp_trim_words(get_the_excerpt(), 5, '...'); ?></p>  -->
-    <button class="read-entry-button">READ ENTRY</button>
-</div>
-
-
+    <div class="landing-blog">
+        <?php the_post_thumbnail('large');?>
+        <?php the_date(); ?>
+        <br>
+        <h1 class="green-brand Novacento-bold"><?php the_title(); ?></h1>
+        <!-- <p><?php echo wp_trim_words(get_the_excerpt(), 5, '...'); ?></p>  -->
+        <button class="read-entry-button">READ ENTRY</button>
+    </div>
 
 <?php endforeach;?>
 </section>

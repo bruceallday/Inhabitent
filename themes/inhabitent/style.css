@@ -150,7 +150,7 @@ p span {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-right: 100px;
+  margin-right: 10px;
   -ms-flex-item-align: end;
       align-self: flex-end; }
 
@@ -175,8 +175,27 @@ nav {
           justify-content: space-between;
   padding-top: 10px; }
 
-.menu-main-container {
-  padding-left: 50px; }
+a.search-toggle {
+  color: #248A83; }
+
+#ajaxsearchlite1.wpdreams_asl_container {
+  width: 250px;
+  margin-right: 20px; }
+
+path#magnifier-2-icon {
+  color: #248A83; }
+
+.search-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+div.menu-main-container {
+  width: 500px; }
 
 .contact {
   display: grid;
@@ -194,7 +213,8 @@ nav {
   display: grid;
   grid-template-rows: 20vh 20vh;
   grid-template-areas: "a a b b" "a a c d";
-  margin: 50px; }
+  margin: 50px;
+  background-color: blue; }
 
 .journal-post {
   position: relative;
@@ -289,8 +309,8 @@ body {
 
 .main-logo {
   position: relative;
-  bottom: 350px;
-  left: 400px; }
+  bottom: 400px;
+  left: 490px; }
 
 .shop-page-product-type {
   display: grid;
@@ -316,7 +336,7 @@ body {
           align-items: center;
   height: 30vh;
   margin-bottom: 20px;
-  border: 1px solid black; }
+  border: 1px solid #808080; }
 
 .front-page-product-sections p {
   padding: 20px;
@@ -392,8 +412,8 @@ div.landing-blog {
   border: 1px solid #808080; }
 
 .product-section-svg {
-  width: 100px;
-  height: 100px; }
+  width: 80px;
+  height: 80px; }
 
 section.about {
   display: -webkit-box;

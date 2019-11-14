@@ -17,7 +17,7 @@
     <?php endforeach;?>
 </section>
 
- <hr style="border-top: dotted 3px; color: #a1a1a1" />
+ <hr style="border-top: dashed 1px; color: #a1a1a1" />
  
 <section class="shop-content-grid">
 <?php if( have_posts() ) :
