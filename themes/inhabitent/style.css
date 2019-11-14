@@ -539,7 +539,7 @@ input {
 .shop-content-grid {
   display: grid;
   grid-template-rows: 20vw 20vw 20vw 20vw;
-  grid-template-columns: 20vw 20vw 20vw 20vw;
+  grid-template-columns: 20vh 20vh 20vh 20vh;
   grid-gap: 25px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;

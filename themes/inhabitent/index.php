@@ -29,18 +29,7 @@
             <?php endif;?>
         </section>
         
-
         <?php get_sidebar();?>
-
-            
-    
-        
-        
-
-     
-
-
-
 
 </section>
 
