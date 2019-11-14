@@ -19,7 +19,8 @@
 nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-between;
+    padding-top: 10px;
 }
 
 .menu-main-container{
@@ -30,6 +31,11 @@ nav{
 // nav img{
 //     margin-right: 400px;
 // }
+
+
+hr.dotted{
+    
+}
 
 
 

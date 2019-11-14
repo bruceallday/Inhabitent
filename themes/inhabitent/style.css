@@ -166,7 +166,8 @@ nav {
           flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  padding-top: 10px; }
 
 .menu-main-container {
   padding-left: 50px; }
@@ -519,7 +520,9 @@ figcaption {
 
 .shop-title {
   text-align: center;
-  font-family: Novecento-Sans-Web-Bold; }
+  font-family: Novecento-Sans-Web-Bold;
+  margin-top: 50px;
+  margin-bottom: 30px; }
 
 .shop-product-type-links {
   display: -webkit-box;
@@ -532,7 +535,8 @@ figcaption {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 10px; }
+  padding: 10px;
+  margin-bottom: 20px; }
 
 .shop-product-type-links a {
   font-family: Novecento-Sans-Web; }
