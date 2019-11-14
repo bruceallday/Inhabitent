@@ -226,8 +226,9 @@ aside {
 h2.widgettitle {
   font-family: Novecento-Sans-Web-Bold; }
 
-#sidebar h4 {
-  font-family: Novecento-Sans-Web-Bold; }
+#sidebar p {
+  font-family: Novecento-Sans-Web-Bold;
+  font-size: 0.6em; }
 
 h1.contact-info-heading {
   font-family: Novecento-Sans-Web-Bold; }
@@ -466,13 +467,16 @@ input {
   color: #d99054; }
 
 .info {
-  padding: 80px; }
+  padding: 70px; }
 
 .shop-content-grid {
   display: grid;
-  grid-template-rows: 30vw 30vw 30vw 30vw;
-  grid-template-columns: 25vw 25vw 25vw 25vw;
-  grid-gap: 10px; }
+  grid-template-rows: 20vw 20vw 20vw 20vw;
+  grid-template-columns: 20vw 20vw 20vw 20vw;
+  grid-gap: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 img.attachment-large {
   width: 100%;
