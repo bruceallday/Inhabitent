@@ -12,10 +12,9 @@
     <div class="search-menu">
         <?php wp_nav_menu(array('theme_location' => 'primary')) ;?>
         <?php echo get_search_form();?>
-    </div>
-    
+    </div> 
 </nav>
-<hr>
+
 
 
 

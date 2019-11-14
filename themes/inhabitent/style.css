@@ -133,6 +133,9 @@ p {
 .merriweather {
   font-family: Merriweather; }
 
+.merriweather-bold {
+  font-family: Merriweather-Web-Bold; }
+
 .Novacento-bold {
   font-family: Novecento-Sans-Web-Bold; }
 
@@ -173,7 +176,8 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 10px; }
+  padding-top: 10px;
+  margin-bottom: 10px; }
 
 a.search-toggle {
   color: #248A83; }
@@ -303,6 +307,9 @@ h1.contact-info-heading {
   font-family: Novecento-Sans-Web;
   color: #248A83;
   text-decoration: none; }
+
+i.fas {
+  margin-right: 10px; }
 
 body {
   font-size: 2em; }

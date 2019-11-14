@@ -13,6 +13,7 @@
     
     <section class="about-text" >
         <?php the_content(); ?>
+        
     </section>
     
     <!-- Loop ends -->

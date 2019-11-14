@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<hr>
 <h1 class="shop-title">SHOP STUFF</h1>
 
 <section class="shop-product-type-links">
