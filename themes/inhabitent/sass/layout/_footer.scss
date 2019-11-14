@@ -1,3 +1,28 @@
 footer{
-    
+    height: 330px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+footer p{
+    padding: 10px;
+}
+
+footer img{
+    margin-left: 120px;
+}
+
+.footer-contact{
+    margin: 50px;
+}
+
+.business-contact{
+    margin: 50px;
+}
+
+.copyright{
+    margin-left: 50px;
+    margin-top: 90px;
 }

@@ -106,6 +106,9 @@ p {
 .journal-post h2 {
   font-family: Novecento-Sans-Web; }
 
+.white-font {
+  color: white; }
+
 .green-brand {
   color: #248A83; }
 
@@ -132,6 +135,9 @@ p {
 
 .Novacento-bold {
   font-family: Novecento-Sans-Web-Bold; }
+
+p span {
+  font-weight: bold; }
 
 .menu {
   display: -webkit-box;
@@ -217,6 +223,35 @@ nav {
 
 .post-image-title h2 {
   color: white; }
+
+footer {
+  height: 330px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center; }
+
+footer p {
+  padding: 10px; }
+
+footer img {
+  margin-left: 120px; }
+
+.footer-contact {
+  margin: 50px; }
+
+.business-contact {
+  margin: 50px; }
+
+.copyright {
+  margin-left: 50px;
+  margin-top: 90px; }
 
 aside {
   grid-area: b;
