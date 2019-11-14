@@ -308,15 +308,19 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   height: 30vh;
   margin-bottom: 20px;
   border: 1px solid black; }
+
+.front-page-product-sections p {
+  padding: 20px;
+  text-align: center; }
 
 .front-page-product-sections-btn {
   width: 100px; }

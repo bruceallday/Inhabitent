@@ -20,11 +20,16 @@ body {
 .front-page-product-sections{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     align-items: center;
     height: 30vh;
     margin-bottom: 20px;
     border: 1px solid black;
+}
+
+.front-page-product-sections p{
+    padding: 20px;
+    text-align: center;
 }
 
 .front-page-product-sections-btn{
