@@ -74,21 +74,22 @@ figcaption{
     flex-direction: column;
 }
 
-// .single-item-info{
-//     display: flex;
-//     flex-direction: column;
-// }
-
 .single-item-info h2{
     font-family: Novecento-Sans-Web;
     padding-left: 40px;
     // color: #d99054
 }
 
-// .single-item-info p{
-//     padding: 40px;
-// }
+.taxonomy-heading{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-family: Novecento-Sans-Web-Bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-// .single-item-info h3{
-//     padding-left: 40px;
-// }
+.taxonomy-heading h1{
+    margin-bottom: 80px;
+}

@@ -302,7 +302,9 @@ div.menu-main-container {
   grid-gap: 25px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 50px; }
 
 .single-item-section img.attachment-large {
   height: 250px;
@@ -701,3 +703,24 @@ figcaption {
 .single-item-info h2 {
   font-family: Novecento-Sans-Web;
   padding-left: 40px; }
+
+.taxonomy-heading {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-family: Novecento-Sans-Web-Bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.taxonomy-heading h1 {
+  margin-bottom: 80px; }

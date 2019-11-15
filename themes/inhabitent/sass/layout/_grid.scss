@@ -1,9 +1,4 @@
-// html{
-//     height: 100vh;
-// }
-
 .contact {
-    // height: 100vh;
     display: grid;
     grid-template-areas:
     "a b"
@@ -103,16 +98,16 @@
 .single-item-info{
     display: flex;
     flex-direction: row;
-    // border: 1px solid black;
 }
 
 .test-grid{
     display: grid;
-    // grid-template-rows: 20vh 20vh 20vh 20vh;
     grid-template-columns: 23vh 23vh 23vh 23vh;
     grid-template-rows: auto;
     grid-gap: 25px;
     justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
     
 }
 

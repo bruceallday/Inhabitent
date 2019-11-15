@@ -2,8 +2,11 @@
 
 <hr>
 
-<h1>TITLE SHOULD GO HERE</h1>
-<?php echo category_description();?>
+<div class="taxonomy-heading" >
+    <h1><?php echo single_term_title( '', false ) ;?></h1>
+    <?php echo category_description();?>
+</div>
+
 <hr style="border-top: dashed 1px; color: #a1a1a1" />
 
 <section class="test-grid">
@@ -13,10 +16,6 @@
 //The WordPress Loop: loads post content 
     while( have_posts() ) :
         the_post(); ?>
-
-
-   
-
 
     <section class="single-item-section">
         <div class="item-image">
@@ -29,8 +28,6 @@
 
         </div>
     </section>
-    
-    
     
     <!-- Loop ends -->
     <?php endwhile;?>
