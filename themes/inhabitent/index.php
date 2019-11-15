@@ -16,8 +16,10 @@
                 <?php the_post_thumbnail('large');?>
                  
                 <p><?php echo wp_trim_words(get_the_excerpt(), 50, '[...]');  ?></p>
-                <button class="read-entry-button">READ MORE</button>
+                <a href="<?php echo get_permalink() ;?>"><button class="read-entry-button">READ MORE</button></a>
             </article>
+
+            
 
             <!-- Loop ends -->
             <?php endwhile;?>

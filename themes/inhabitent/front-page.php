@@ -30,8 +30,6 @@ foreach($terms as $term):?>
          <?php echo category_description($term);?>
         <!-- <button type="submit" class="front-page-product-sections-btn"> <a class="front-page-product-sections-btn" href="
         <?php echo "product-type/" . $term->slug ;?>"> <?php echo $term->name;?> </a> </button> -->
-
-
         <a href="<?php echo "product-type/" . $term->slug ;?>"><button type="submit" class="front-page-product-sections-btn"><?php echo $term->name;?></button></a>
 
     </section>
@@ -55,8 +53,7 @@ foreach($postslist as $post) : setup_postdata($post); ?>
         <?php the_date(); ?>
         <br>
         <h1 class="green-brand Novacento-bold"><?php the_title(); ?></h1>
-        <!-- <p><?php echo wp_trim_words(get_the_excerpt(), 5, '...'); ?></p>  -->
-        <button class="read-entry-button">READ ENTRY</button>
+        <a href="<?php echo get_permalink() ;?>"><button class="read-entry-button">READ MORE</button></a>
     </div>
 
 <?php endforeach;?>
