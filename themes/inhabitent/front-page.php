@@ -28,7 +28,11 @@ foreach($terms as $term):?>
     <section class="front-page-product-sections">
         <img class="product-section-svg" src="<?php echo get_stylesheet_directory_uri();?>/assets/images/product-type-icons/<?php echo $term->slug;?>.svg" alt="">
          <?php echo category_description($term);?>
-        <button class="front-page-product-sections-btn" href="<?php echo "product-type/" . $term->slug ;?>"> <?php echo $term->name;?> </button>
+        <!-- <button type="submit" class="front-page-product-sections-btn"> <a class="front-page-product-sections-btn" href="
+        <?php echo "product-type/" . $term->slug ;?>"> <?php echo $term->name;?> </a> </button> -->
+
+
+        <a href="<?php echo "product-type/" . $term->slug ;?>"><button type="submit" class="front-page-product-sections-btn"><?php echo $term->name;?></button></a>
 
     </section>
 
