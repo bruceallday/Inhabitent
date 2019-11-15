@@ -247,6 +247,12 @@ div.menu-main-container {
 .post-image-title h2 {
   color: white; }
 
+.single-post-page {
+  display: grid;
+  grid-template-areas: "a b" "a b" "c c";
+  grid-template-columns: 1fr 360px;
+  grid-gap: 10px; }
+
 footer {
   height: 330px;
   margin-top: 50px;

@@ -73,3 +73,14 @@
     
     // background-color: #248A83;
 }
+
+.single-post-page{
+    display: grid;
+    grid-template-areas:
+    "a b"
+    "a b"
+    "c c";
+
+    grid-template-columns:1fr 360px;
+    grid-gap: 10px;
+}
