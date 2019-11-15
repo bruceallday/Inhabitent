@@ -68,25 +68,27 @@ figcaption{
 }
 
 .single-item-section{
-    display: flex;
-    flex-direction: row;
-}
-
-.single-item-info{
+    height: 300px;
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
 }
 
+// .single-item-info{
+//     display: flex;
+//     flex-direction: column;
+// }
+
 .single-item-info h2{
     font-family: Novecento-Sans-Web;
     padding-left: 40px;
-    color: #d99054
+    // color: #d99054
 }
 
-.single-item-info p{
-    padding: 40px;
-}
+// .single-item-info p{
+//     padding: 40px;
+// }
 
-.single-item-info h3{
-    padding-left: 40px;
-}
+// .single-item-info h3{
+//     padding-left: 40px;
+// }

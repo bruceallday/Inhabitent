@@ -23,13 +23,7 @@
 
     grid-template-columns:1fr 360px;
     border: 1px solid #a1a1a1;
-    
 }
-
-.journal-excerpts{
-   
-}
-
 
 .latest-adventures{
     display: grid;
@@ -40,8 +34,6 @@
     margin: 50px;
     background-color: blue;
 }
-
-
 
 .journal-post{
     position: relative;
@@ -85,15 +77,6 @@
     color: white;
 }
 
-
-
-
-
-.article h2{
-    
-    // background-color: #248A83;
-}
-
 .single-post-page{
     display: grid;
     grid-template-areas:
@@ -108,4 +91,32 @@
 .single-product-page{
     display: flex;
     flex-direction: row;
+}
+
+// .single-grid{
+//     width: 100vw;
+//     display: grid;
+//     grid-template-columns: auto;
+//     grid-template-rows: auto;
+// }
+
+.single-item-info{
+    display: flex;
+    flex-direction: row;
+    // border: 1px solid black;
+}
+
+.test-grid{
+    display: grid;
+    // grid-template-rows: 20vh 20vh 20vh 20vh;
+    grid-template-columns: 23vh 23vh 23vh 23vh;
+    grid-template-rows: auto;
+    grid-gap: 25px;
+    justify-content: center;
+    
+}
+
+.single-item-section img.attachment-large{
+    height: 250px;
+    object-fit: cover;
 }

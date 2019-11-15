@@ -286,6 +286,29 @@ div.menu-main-container {
       -ms-flex-direction: row;
           flex-direction: row; }
 
+.single-item-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.test-grid {
+  display: grid;
+  grid-template-columns: 23vh 23vh 23vh 23vh;
+  grid-template-rows: auto;
+  grid-gap: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.single-item-section img.attachment-large {
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover; }
+
 footer {
   height: 330px;
   margin-top: 50px;
@@ -665,15 +688,8 @@ figcaption {
   font-size: 18px; }
 
 .single-item-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row; }
-
-.single-item-info {
+  height: 300px;
+  border: 1px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -684,11 +700,4 @@ figcaption {
 
 .single-item-info h2 {
   font-family: Novecento-Sans-Web;
-  padding-left: 40px;
-  color: #d99054; }
-
-.single-item-info p {
-  padding: 40px; }
-
-.single-item-info h3 {
   padding-left: 40px; }

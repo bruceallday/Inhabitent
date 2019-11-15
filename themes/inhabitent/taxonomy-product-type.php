@@ -1,19 +1,29 @@
 <?php get_header(); ?>
 
-<?php if( have_posts() ) :
+<hr>
+
+<h1>TITLE SHOULD GO HERE</h1>
+
+<hr style="border-top: dashed 1px; color: #a1a1a1" />
+
+<section class="test-grid">
+    <?php if( have_posts() ) :
+
 
 //The WordPress Loop: loads post content 
     while( have_posts() ) :
         the_post(); ?>
 
+
     <section class="single-item-section">
-        <?php the_post_thumbnail('medium');?>
+        <div class="item-image">
+            <?php the_post_thumbnail('large');?>
+        </div>
+        
         <div class="single-item-info">
-            <h2><?php the_title(); ?></h2>
-             <h3 class="novecento-web" ><?php echo "£" . get_field('price');?></h3> 
-    <!-- <h3><?php the_permalink();?></h3> -->
-            <?php the_content(); ?>
-            
+            <p><?php the_title(); ?></p>
+             <p class="merriweather" ><?php echo "£" . get_field('price');?></p> 
+
         </div>
     </section>
     
@@ -27,6 +37,10 @@
 <?php else : ?>
         <p>No posts found</p>
 <?php endif;?>
+
+</section>
+
+
 
     
 <?php get_footer();?>
