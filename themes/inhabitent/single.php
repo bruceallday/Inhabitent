@@ -8,8 +8,8 @@
     <h2><?php the_title(); ?></h2>
     <?php the_post_thumbnail('large');?>
     <?php the_content(); ?>
+    <?php comment_form(); ?>
 
-    
     <!-- Loop ends -->
     <?php endwhile;?>
 
@@ -19,5 +19,9 @@
         <p>No posts found</p>
 <?php endif;?>
 
-    
+     <?php if ( comments_open() || get_comments_number() ) :
+     comments_template();
+    endif; ;?>
+
+
 <?php get_footer();?>
