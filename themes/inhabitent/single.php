@@ -6,8 +6,10 @@
         //The WordPress Loop: loads post content 
         while( have_posts() ) :
         the_post(); ?>
-    
-        <h2><?php the_title(); ?></h2>
+        <div class="post-image-title-main">
+             <h2><?php the_title(); ?></h2>
+        </div>
+       
         <?php the_post_thumbnail('large');?>
         <?php the_content(); ?>
 

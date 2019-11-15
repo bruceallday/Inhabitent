@@ -9,7 +9,7 @@
                 the_post(); ?>
 
             <article class="journal-post">
-                <div class="post-image-title">
+                <div class="post-image-title-main">
                     <h2><?php the_title(); ?></h2>
                 </div> 
                 <!-- <h2><?php the_title(); ?></h2> -->

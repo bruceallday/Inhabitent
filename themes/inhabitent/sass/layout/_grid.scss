@@ -60,12 +60,32 @@
     height: 80px;
     z-index: 1;
     background-color: #248A83;
-    
 }
 
 .post-image-title h2{
     color: white;
 }
+
+.post-image-title-main{
+    color: white;
+    position: absolute;
+    top: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    width: 450px;
+    height: 80px;
+    z-index: 1;
+    background-color: #248A83;
+}
+
+.post-image-title-main h2{
+    font-family: Novecento-Sans-Web;
+    color: white;
+}
+
+
 
 
 

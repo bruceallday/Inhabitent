@@ -247,6 +247,30 @@ div.menu-main-container {
 .post-image-title h2 {
   color: white; }
 
+.post-image-title-main {
+  color: white;
+  position: absolute;
+  top: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 10px;
+  width: 450px;
+  height: 80px;
+  z-index: 1;
+  background-color: #248A83; }
+
+.post-image-title-main h2 {
+  font-family: Novecento-Sans-Web;
+  color: white; }
+
 .single-post-page {
   display: grid;
   grid-template-areas: "a b" "a b" "c c";
