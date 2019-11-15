@@ -19,6 +19,12 @@
         <?php else : ?>
             <p>No posts found</p>
         <?php endif;?>
+        <div>
+             <button class="social-button"><i class="fab fa-facebook-f"></i> LIKE </button>
+              <button class="social-button"><i class="fab fa-pinterest"></i> PIN </button>
+               <button class="social-button"> <i class="fab fa-twitter"></i> TWEET </button>
+        </div>
+       
 
     </div>
    
