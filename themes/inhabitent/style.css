@@ -277,6 +277,15 @@ div.menu-main-container {
   grid-template-columns: 1fr 360px;
   grid-gap: 10px; }
 
+.single-product-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
 footer {
   height: 330px;
   margin-top: 50px;

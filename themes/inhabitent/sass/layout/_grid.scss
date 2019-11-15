@@ -104,3 +104,8 @@
     grid-template-columns:1fr 360px;
     grid-gap: 10px;
 }
+
+.single-product-page{
+    display: flex;
+    flex-direction: row;
+}
