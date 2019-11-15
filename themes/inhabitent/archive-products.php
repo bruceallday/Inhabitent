@@ -25,17 +25,18 @@
 //The WordPress Loop: loads post content 
     while( have_posts() ) :
         the_post(); ?>
-    
-    <figure>
         
+    <a href="<?php echo get_permalink() ;?>">
+        <figure>
         <?php the_post_thumbnail('large');?>
-
         <figcaption>
             <p><?php the_title(); ?></p>
             <?php echo "£" . get_field('price');?>
         </figcaption>
         
-    </figure>
+        </figure>
+    </a>
+    
     
     <!-- Loop ends -->
     <?php endwhile;?>
