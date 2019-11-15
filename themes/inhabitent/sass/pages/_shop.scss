@@ -93,3 +93,38 @@ figcaption{
 .taxonomy-heading h1{
     margin-bottom: 80px;
 }
+
+.item-image img{
+    filter: brightness(100%);
+}
+
+.single-product-page img{
+    margin-bottom: 120px;
+    padding: 40px;
+    width: 650px;
+    height: 500px;
+    filter: brightness(100%);
+}
+
+.single-product-info-div{
+    margin-top: 40px;
+}
+
+.single-product-info-div h2{
+    margin-bottom: 30px;
+    font-family: Novecento-Sans-Web;
+    color: #d99054
+}
+
+.single-product-info-div p{
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-family: Merriweather;
+}
+
+.single-product-info-div .price-text{
+    font-size: 32px;
+    font-family: Novecento-Sans-Web;
+}

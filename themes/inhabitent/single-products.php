@@ -8,14 +8,14 @@
 
     <section class="single-product-page">
         <?php the_post_thumbnail('large');?>
-        <div>
-            <h2><?php the_title(); ?></h2>
-            <?php echo "£" . get_field('price');?>
+        <div class="single-product-info-div">
+            <h2> <?php strtoupper( the_title()); ?></h2>
+            <p class="price-text" ><?php echo "£" . get_field('price');?></p> 
             <?php the_content(); ?>
+            <div><button class="social-button"><i class="fab fa-facebook-f"></i> LIKE </button>
+              <button class="social-button"><i class="fab fa-pinterest"></i> PIN </button>
+               <button class="social-button"> <i class="fab fa-twitter"></i> TWEET </button>
         </div>
-         
-        
-        
     </section>
     
     

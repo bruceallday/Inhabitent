@@ -17,7 +17,9 @@
     while( have_posts() ) :
         the_post(); ?>
 
+        
     <section class="single-item-section">
+        <a href="<?php echo get_permalink() ;?>">
         <div class="item-image">
             <?php the_post_thumbnail('large');?>
         </div>
@@ -25,8 +27,8 @@
         <div class="single-item-info">
             <p><?php the_title(); ?></p>
              <p class="merriweather" ><?php echo "£" . get_field('price');?></p> 
-
         </div>
+        </a>
     </section>
     
     <!-- Loop ends -->
