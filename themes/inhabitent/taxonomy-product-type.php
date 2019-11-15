@@ -3,7 +3,7 @@
 <hr>
 
 <h1>TITLE SHOULD GO HERE</h1>
-
+<?php echo category_description();?>
 <hr style="border-top: dashed 1px; color: #a1a1a1" />
 
 <section class="test-grid">
@@ -13,6 +13,9 @@
 //The WordPress Loop: loads post content 
     while( have_posts() ) :
         the_post(); ?>
+
+
+   
 
 
     <section class="single-item-section">
