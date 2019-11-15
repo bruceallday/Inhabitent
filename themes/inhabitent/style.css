@@ -311,26 +311,6 @@ h1.contact-info-heading {
 i.fas {
   margin-right: 10px; }
 
-#respond {
-  background: #fbfbfb;
-  padding: 0 10px 0 10px; }
-
-/* Highlight active form field */
-#respond input[type=text], textarea {
-  outline: none;
-  padding: 3px 0px 3px 3px;
-  margin: 5px 1px 3px 0px;
-  border: 1px solid #DDDDDD; }
-
-#respond input[type=text]:focus,
-input[type=email]:focus,
-input[type=url]:focus,
-textarea:focus {
-  -webkit-box-shadow: 0 0 5px #51cbee;
-          box-shadow: 0 0 5px #51cbee;
-  margin: 5px 1px 3px 0px;
-  border: 2px solid #51cbee; }
-
 body {
   font-size: 2em; }
 
