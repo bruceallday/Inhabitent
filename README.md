@@ -3,12 +3,7 @@ Custom Wordpress Template Site <br>
 
 
 
-![]()
-
-## Preview
-Clone project<br>
-
-run in local server of your choice<br>
+![](/themes/inhabitent/readme-images/inhabitent-landing.png)
 
 ## Technologies used
 * HTML5
@@ -76,7 +71,7 @@ foreach($terms as $term):?>
 
 ### RESULT:
 
-![](/themes/inhabitent/shop-screenshot.png)
+![](/themes/inhabitent/readme-images/shop-screenshot.png)
 
 
 Below Is the code I used to grab my custom wordpress widget, in this case it was the sidebar that appears on a few, but not all of the pages. I accessed my widget through my funcions.php file after creating it on the wordpress dashboard.
@@ -107,7 +102,7 @@ Then in the pages I wanted my sidebar to appear I used..
 
 ### Result:
 
-![](/themes/inhabitent/screenshot2.png)
+![](/themes/inhabitent/readme-images/screenshot2.png)
 
 
 
