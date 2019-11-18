@@ -19,8 +19,6 @@
                 <a href="<?php echo get_permalink() ;?>"><button class="read-entry-button">READ MORE</button></a>
             </article>
 
-            
-
             <!-- Loop ends -->
             <?php endwhile;?>
         

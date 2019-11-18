@@ -28,10 +28,7 @@ foreach($terms as $term):?>
     <section class="front-page-product-sections">
         <img class="product-section-svg" src="<?php echo get_stylesheet_directory_uri();?>/assets/images/product-type-icons/<?php echo $term->slug;?>.svg" alt="">
          <?php echo category_description($term);?>
-       
-        
         <a href="<?php echo "product-type/" . $term->slug ;?>"><button type="submit" class="front-page-product-sections-btn"><?php echo $term->name;?></button></a>
-
     </section>
 
 <?php endforeach;?>

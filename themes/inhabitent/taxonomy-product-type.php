@@ -12,12 +12,10 @@
 <section class="test-grid">
     <?php if( have_posts() ) :
 
-
 //The WordPress Loop: loads post content 
     while( have_posts() ) :
         the_post(); ?>
 
-        
     <section class="single-item-section">
         <a href="<?php echo get_permalink() ;?>">
         <div class="item-image">
@@ -26,12 +24,11 @@
         
         <div class="single-item-info">
             <p><?php the_title(); ?></p>
-             <p class="merriweather" ><?php echo "£" . get_field('price');?></p> 
+            <p class="merriweather" style="text-decoration: none;" ><?php echo "£" . get_field('price');?></p> 
         </div>
         </a>
     </section>
     
-    <!-- Loop ends -->
     <?php endwhile;?>
 
     <?php the_posts_navigation();?>

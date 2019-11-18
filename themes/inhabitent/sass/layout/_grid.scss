@@ -115,3 +115,44 @@
     height: 250px;
     object-fit: cover;
 }
+
+#comments{
+    // padding: 50px 200px 50px 50px;
+}
+
+.journal-entry{
+    padding: 30px
+
+}
+
+.comment-body p{
+    margin-left: 50px;
+    margin-right: 200px;
+}
+
+.comment-body div{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.form-submit #submit{
+    width: 200px;
+    height: 50px;
+    font-family:Novecento-Sans-Web;
+    color: white;
+    background-color: #248A83;
+    
+}
+
+
+
+.logged-in-as a{
+    color: #248A83;
+    text-decoration: none;
+    // padding-left: 50px;
+}
+
+.logged-in-as{
+    padding-left: 50px;
+}
+

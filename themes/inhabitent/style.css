@@ -311,6 +311,31 @@ div.menu-main-container {
   -o-object-fit: cover;
      object-fit: cover; }
 
+.journal-entry {
+  padding: 30px; }
+
+.comment-body p {
+  margin-left: 50px;
+  margin-right: 200px; }
+
+.comment-body div {
+  margin-left: 50px;
+  margin-right: 50px; }
+
+.form-submit #submit {
+  width: 200px;
+  height: 50px;
+  font-family: Novecento-Sans-Web;
+  color: white;
+  background-color: #248A83; }
+
+.logged-in-as a {
+  color: #248A83;
+  text-decoration: none; }
+
+.logged-in-as {
+  padding-left: 50px; }
+
 footer {
   height: 330px;
   margin-top: 50px;
@@ -374,6 +399,93 @@ h1.contact-info-heading {
 
 i.fas {
   margin-right: 10px; }
+
+.comments-title {
+  font-family: Novecento-Sans-Web-Bold;
+  padding-left: 50px;
+  margin-bottom: 50px; }
+
+.comment-author img {
+  border-radius: 50px; }
+
+.comment-author span {
+  font-family: Merriweather;
+  font-size: 16px; }
+
+cite.fn {
+  font-family: Merriweather-Web-Bold;
+  font-size: 16px; }
+
+.comment-meta a {
+  font-family: Merriweather;
+  font-size: 16px;
+  text-decoration: none;
+  color: #a1a1a1; }
+
+.comment-meta p {
+  padding: 100px; }
+
+a.comment-reply-link {
+  color: #248A83;
+  font-size: 16px; }
+
+h3#reply-title.comment-reply-title {
+  padding-left: 50px;
+  font-family: Novecento-Sans-Web-Bold;
+  margin-bottom: 50px; }
+
+textarea#comment {
+  background-color: #a1a1a1;
+  width: 600px;
+  height: 300px;
+  border: none;
+  margin-top: 15px;
+  -webkit-filter: brightness(150%);
+          filter: brightness(150%);
+  margin-bottom: 80px; }
+
+.comment-form-comment {
+  font-family: Novecento-Sans-Web; }
+
+input#author {
+  background-color: #a1a1a1;
+  border: none;
+  width: 600px;
+  height: 50px;
+  -webkit-filter: brightness(150%);
+          filter: brightness(150%); }
+
+input#email {
+  background-color: #a1a1a1;
+  border: none;
+  width: 600px;
+  height: 50px;
+  -webkit-filter: brightness(150%);
+          filter: brightness(150%); }
+
+input#url {
+  background-color: #a1a1a1;
+  border: none;
+  width: 600px;
+  height: 50px;
+  -webkit-filter: brightness(150%);
+          filter: brightness(150%); }
+
+.comment-form p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 50px; }
+
+.comment-form p label {
+  font-family: Novecento-Sans-Web; }
+
+span.required {
+  color: #d99054; }
 
 .social-button {
   font-size: 18px;
@@ -705,6 +817,9 @@ figcaption {
   font-family: Novecento-Sans-Web;
   padding-left: 40px; }
 
+.single-item-info {
+  text-decoration: none; }
+
 .taxonomy-heading {
   margin-top: 80px;
   margin-bottom: 80px;
@@ -756,3 +871,7 @@ figcaption {
 .single-product-info-div .price-text {
   font-size: 32px;
   font-family: Novecento-Sans-Web; }
+
+.single-post-page div .post-image-title-main img {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%); }
