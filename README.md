@@ -36,9 +36,9 @@ I set-up my account then customised the Dashboard with the pages, posts and nece
 In this case I created a products tab Which contins all the products that the site would be using along with the ability to add new products.
 
 ### Plugins:
-[Ajax Search Lite](https://wordpress.org/plugins/ajax-search-lite/)
-[Advanced Custom Fields](https://www.advancedcustomfields.com/)
-[Query Monitor](https://en-ca.wordpress.org/plugins/query-monitor/)
+[Ajax Search Lite](https://wordpress.org/plugins/ajax-search-lite/)<br>
+[Advanced Custom Fields](https://www.advancedcustomfields.com/)<br>
+[Query Monitor](https://en-ca.wordpress.org/plugins/query-monitor/)<br>
 
 
 
