@@ -12,7 +12,6 @@
                 <div class="post-image-title-main">
                     <h2><?php the_title(); ?></h2>
                 </div> 
-                <!-- <h2><?php the_title(); ?></h2> -->
                 <?php the_post_thumbnail('large');?>
                  
                 <p><?php echo wp_trim_words(get_the_excerpt(), 50, '[...]');  ?></p>
@@ -32,10 +31,5 @@
         <?php get_sidebar();?>
 
 </section>
-
-
-
-
-
-    
+  
 <?php get_footer();?>

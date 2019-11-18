@@ -1,6 +1,8 @@
 # Inhabitent
 Custom Wordpress Template Site <br>
 
+
+
 ![]()
 
 ## Preview
@@ -33,7 +35,6 @@ run in local server of your choice<br>
 ### Wordpress:
 This was the first time I used the CMS Wordpress to create a functional site with mulitple pages.
 I set-up my account then customised the Dashboard with the pages, posts and necessary plugins we would be using. 
-In this case I created a products tab Which contins all the products that the site would be using along with the ability to add new products.
 
 ### Plugins:
 [Ajax Search Lite](https://wordpress.org/plugins/ajax-search-lite/)<br>
@@ -42,7 +43,7 @@ In this case I created a products tab Which contins all the products that the si
 
 
 
-### PHP:
+## PHP / Wordpress:
 We were introduced to the general-purpose scripting language PHP (Personal Home Page). Using this language I leanred how to connect my Wordpress content into my Custom Theme using the built in PHP/Wordpress functions. Below I use the Built in PHP functions to grab the data for each product and have is displayed accordingly onto its correct page. 
 
 ```
@@ -58,10 +59,9 @@ We were introduced to the general-purpose scripting language PHP (Personal Home 
 
 ```
 
-Below I used a PHP '''foreach''' to loop through my taxonomy products and grab the appropriate slug, to be appended to the URL of the image im looking for. Locasted in my directory. Then also add the correct category discription and button to link to the correct page.
+Below I used a PHP '''foreach''' to loop through my taxonomy products and grab the appropriate slug, to be appended to the URL of the images path Im looking for within my project directory. Then, I also add the correct category discription and button link to that products page based on the ```$term```
 
-
-CODE: <br>
+### CODE:
 ```
 foreach($terms as $term):?>
 
@@ -74,56 +74,46 @@ foreach($terms as $term):?>
 <?php endforeach;?>
 ```
 
-RESULT: <br>
+### RESULT:
 
 ![](/themes/inhabitent/shop-screenshot.png)
 
 
+Below Is the code I used to grab my custom wordpress widget, in this case it was the sidebar that appears on a few, but not all of the pages. I accessed my widget through my funcions.php file after creating it on the wordpress dashboard.
 
+### CODE:
 
-
-
-### GULP Task-runner
-I learnt how to utilise task-runner [GULP]("https://gulpjs.com/docs/en/getting-started/quick-start") to Automate and streamline my work flow.
-I created a ```gulp.js``` file that streamlines my SASS into pure CSS3, minifies my ```app.js``` and ```style.css```, then places them in a build directory, live using browser-sync.<br>
-
-Example:<br>
-
-```javascript
-gulp.task("sass", function(){
-    return gulp
-    ...
+```
+function inhabitent_widgets(){
+    register_sidebar( array(
+        'name'          => sprintf( __( 'Sidebar %d' ), 1 ),
+        'id'            => "sidebar-1",
+        'description'   => '',
+        'class'         => '',
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget'  => "</aside>\n",
+        'before_title'  => '<h2 class="widgettitle">',
+        'after_title'   => "</h2>\n",
+    ));
 }
 ```
 
-```javascript
-gulp.task("scripts", function(){
-    return gulp
-    ...
-}
+Then in the pages I wanted my sidebar to appear I used..
 ```
+<?php get_sidebar();?>
 
-``` javascript
-gulp.task("browser-sync", function(done){
-    return gulp
-    ...
-}
 ```
+..at the end of my script, to add the sidebar to the pages I wanted it to appear. Then appended it to its ```grid-area: a;``` place accordingly in my SCSS file.
 
-## Custom menu
-![](customMenu.png)
+### Result:
 
-To add some personal flavour to my page I implemented a [custom cursor](http://www.rw-designer.com/cursor-library), and matched the colour pallet to that of the site.
+![](/themes/inhabitent/screenshot2.png)
 
-<br>
+
 
 ## Environment
 * macOS Mojave: 10.14.6
 * VS Code: 1.39.1
-
-## Contributing
-
-Please feel free to clone this project, feedback and improvements welcome.
 
 ## Authors
 * **Bruce Pouncey** - *Initial work* - [BPouncey](https://github.com/BPouncey)

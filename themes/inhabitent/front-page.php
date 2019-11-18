@@ -37,8 +37,6 @@ foreach($terms as $term):?>
 
 <h1 class="landing-heading">INHABITENT JOURNAL</h1>
 
-
-
 <section class="journal-excerpts">
 <?php
 $args = array('numberposts' => 3, 'order' => "ASC", 'orderby' => 'title');
