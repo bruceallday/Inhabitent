@@ -76,7 +76,7 @@ foreach($terms as $term):?>
 
 RESULT: <br>
 
-![](/themes/shop-screenshot.png)
+![](/themes/inhabitent/shop-screenshot.png)
 
 
 
