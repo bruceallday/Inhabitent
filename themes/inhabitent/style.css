@@ -494,6 +494,9 @@ span.required {
   border: 1px solid black;
   background-color: white; }
 
+.error-search {
+  width: 200px; }
+
 body {
   font-size: 2em; }
 

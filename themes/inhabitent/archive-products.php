@@ -36,15 +36,11 @@
         
         </figure>
     </a>
-    
-    
     <!-- Loop ends -->
     <?php endwhile;?>
 
 
 </section>
-
-
 
 <?php the_posts_navigation();?>
 
